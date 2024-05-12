@@ -13,15 +13,33 @@
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "20.12.7",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.2",
     "aws-cdk": "2.141.0",
+    "jest": "^29.7.0",
+    "serverless": "^3.38.0",
+    "serverless-aws-documentation": "^1.1.0",
+    "serverless-domain-manager": "^7.3.8",
+    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "~5.4.5"
+    "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.204.0",
+    "@aws-cdk/aws-apigatewayv2": "^1.204.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "^1.204.0",
+    "@aws-cdk/aws-dynamodb": "^1.204.0",
+    "@aws-cdk/aws-lambda": "^1.204.0",
+    "@aws-cdk/aws-s3": "^1.204.0",
+    "@aws-cdk/core": "^1.204.0",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
     "aws-cdk-lib": "2.141.0",
+    "aws-sdk": "^2.1618.0",
+    "body-parser": "^1.20.2",
     "constructs": "^10.0.0",
-    "source-map-support": "^0.5.21"
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "source-map-support": "^0.5.21",
+    "uuid": "^9.0.1"
   }
 }

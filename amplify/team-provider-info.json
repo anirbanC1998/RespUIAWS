@@ -10,6 +10,14 @@
       "StackName": "amplify-respuiaws-dev-bea8e",
       "StackId": "arn:aws:cloudformation:us-east-1:918340076466:stack/amplify-respuiaws-dev-bea8e/f027b900-0fbf-11ef-8d6d-0affdbb8eb55",
       "AmplifyAppId": "d3usd3xdo27yi5"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3usd3xdo27yi5",
+          "type": "cicd"
+        }
+      }
     }
   }
 }

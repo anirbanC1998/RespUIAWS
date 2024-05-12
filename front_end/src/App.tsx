@@ -1,5 +1,4 @@
-import React,  { useState } from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <form onSubmit={handleSubmit} className="flex flex-col items-center justify-left min-h-screen">
+        <form onSubmit={handleSubmit} className="flex flex-col items-center justify-center min-h-screen">
           <input
             type="text"
             placeholder="Enter Text"
